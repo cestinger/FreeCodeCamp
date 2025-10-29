@@ -1,0 +1,21 @@
+packages:
+  - 'api'
+  - 'client'
+  - 'curriculum'
+  - 'shared'
+  - 'tools/challenge-editor/api'
+  - 'tools/challenge-editor/client'
+  - 'tools/challenge-helper-scripts'
+  - 'tools/challenge-parser'
+  - 'tools/client-plugins/*'
+  - 'tools/crowdin'
+  - 'tools/daily-challenges'
+  - 'tools/scripts/build'
+  - 'tools/scripts/lint'
+  - 'tools/scripts/seed'
+  - 'tools/scripts/seed-exams'
+
+packageExtensions:
+  '@testing-library/jest-dom':
+    peerDependencies:
+      vitest: '*'
